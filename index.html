@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Rich text</title>
+</head>
+
+<body id="body">
+    <section>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <label for="textBold">
+                            <button id="textBoldBtn">B</button>
+                        </label>
+                        <input type="checkbox" id="textBold">
+                    </li>
+                    <li>
+                        <label for="textItalic">
+                            <button id="textItalicBtn">I</button>
+                        </label>
+                        <input type="checkbox" id="textItalic">
+                    </li>
+                    <li>
+                        <label for="textUnderline">
+                            <button id="textUnderlineBtn">U</button>
+                        </label>
+                        <input type="checkbox" id="textUnderline">
+                    </li>
+                    <li>
+                        <label for="textCopy">
+                            <button id="textCopyBtn">
+                                <img width="20px" height="20px" src="./copy-svgrepo-com.svg" alt="">
+                            </button>
+                        </label>
+                        <input type="checkbox" id="textCopy">
+                    </li>
+                    <li>
+                        <label for="textCut">
+                            <button id="textCutBtn">
+                                <img width="20px" height="20px" src="./cut-svgrepo-com.svg" alt="">
+                            </button>
+                        </label>
+                        <input type="checkbox" id="textCut">
+                    </li>
+                </ul>
+            </nav>
+
+            <div>
+                <div id="textArea" contenteditable="true">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Aspernatur, minima.</div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
